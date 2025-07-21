@@ -9,7 +9,7 @@ import os
 st.set_page_config(page_title="Agente Jurídico Trabalhista", layout="wide")
 st.title("🤖 Agente Jurídico - Defesa Trabalhista Empresarial")
 
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["xxxxxx"]
 
 # Upload dos arquivos
 uploaded_pdf = st.file_uploader("📄 Envie a petição inicial (PDF)", type="pdf")
